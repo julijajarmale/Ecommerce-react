@@ -595,3 +595,68 @@ body {
     }
   }
 }
+
+.footer-container{
+  display: flex;
+  padding: 10px;
+    .left{
+  flex:1;
+  padding:20px;
+  
+  .logo{
+  font-size: 35px;
+  margin-bottom: 20px;
+  }
+  
+  .desc{
+  margin-bottom: 30px;
+  }
+  
+  .social-container{
+  
+  display: flex;
+  
+    .social-icon{
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+    }
+  
+  .center{
+    flex:1;
+    padding:20px;
+  
+    .title{
+  margin-bottom: 30px;
+    }
+  
+    ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+      li{
+  width:50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+      }
+    }
+  }
+    .right{
+      flex:1;
+      padding:20px;
+  
+      .title{
+        margin-bottom: 30px;
+      }
+      .contact-item{
+        cursor: pointer;
+        margin-bottom: 20px;
+  
+      }
+    }
+  
+  
+  }
