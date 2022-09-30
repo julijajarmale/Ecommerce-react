@@ -2,12 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-
+import Top from "./Top";
+import Announcement from "./Announcement";
 
 const Navbar = () => {
   return (
     <>
-      
+      <Top />
       <div className="container header">
         <div className="row">
           <nav className="nav">
@@ -88,7 +89,7 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
-      
+      <Announcement />
     </>
   );
 };
