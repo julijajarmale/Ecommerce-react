@@ -54,7 +54,6 @@ body {
   color: #090701;
 }
 
-
 // TOP-HEADER
 .top {
   height: 30px;
@@ -89,7 +88,6 @@ body {
     font-size: 12px;
     color: var(--gray-dark);
   }
-  
 }
 @media only screen and (max-width: 380px) {
   .top {
@@ -165,18 +163,17 @@ body {
     font-size: 18px;
     color: gray;
   }
-  .cart{
+  .cart {
     cursor: pointer;
   }
 }
 @media only screen and (max-width: 380px) {
   .header .nav {
-  display: flex;
-   flex-direction: column;
-   height: 300px
+    display: flex;
+    flex-direction: column;
+    height: 300px;
   }
 }
-
 
 .announce {
   box-sizing: border-box;
@@ -486,24 +483,24 @@ body {
       font-weight: 100;
       font-size: 20px;
     }
-    .filter{
+    .filter {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       width: 60%;
       margin: 20px;
     }
-    .add{
+    .add {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width:20%;
-     margin-bottom: 20px;
-  p{
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+      width: 20%;
+      margin-bottom: 20px;
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
     }
     .button-1 {
       align-items: center;
@@ -596,121 +593,195 @@ body {
   }
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   padding: 10px;
-    .left{
-  flex:1;
-  padding:20px;
-  
-  .logo{
-  font-size: 35px;
-  margin-bottom: 20px;
-  }
-  
-  .desc{
-  margin-bottom: 30px;
-  }
-  
-  .social-container{
-  
-  display: flex;
-  
-    .social-icon{
-      margin-left: 10px;
-      cursor: pointer;
-    }
-  }
-    }
-  
-  .center{
-    flex:1;
-    padding:20px;
-  
-    .title{
-  margin-bottom: 30px;
-    }
-  
-    ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-      li{
-  width:50%;
-  margin-bottom: 10px;
-  cursor: pointer;
-      }
-    }
-  }
-    .right{
-      flex:1;
-      padding:20px;
-  
-      .title{
-        margin-bottom: 30px;
-      }
-      .contact-item{
-        cursor: pointer;
-        margin-bottom: 20px;
-  
-      }
-    }
-  
-  
-  }
-
-  //CART
-
-  .cart-container{
+  .left {
+    flex: 1;
     padding: 20px;
-  margin-bottom: 50px;
-    .title{
-      font-weight: 300;
-      text-align: center;
+
+    .logo {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+
+    .desc {
       margin-bottom: 30px;
     }
-    .top1{
+
+    .social-container {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      .top-button{
-        padding: 10px;
-        font-weight: 600;
+
+      .social-icon {
+        margin-left: 10px;
         cursor: pointer;
-        border: 1 solid black;
-        background-color: #fff;
-      }
-      .top-button2{
-        padding: 10px;
-        font-weight: 600;
-        cursor: pointer;
-        border: 1 solid black;
-        background-color: #090701;
-        color: #fff;
-      }
-      .toptext{
-        text-decoration: underline;
-        cursor: pointer;
-        margin: 0px 10px;
-      }
-  
-     
-    }
-  
-    .bottom{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-  
-      .info{
-        flex:3;
-      }
-  
-      .summary{
-        flex:1;
       }
     }
   }
-  
+
+  .center {
+    flex: 1;
+    padding: 20px;
+
+    .title {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        width: 50%;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  .right {
+    flex: 1;
+    padding: 20px;
+
+    .title {
+      margin-bottom: 30px;
+    }
+    .contact-item {
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//CART
+
+.cart-container {
+  padding: 20px;
+  margin-bottom: 50px;
+  .title {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .top1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .top-button {
+      padding: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1 solid black;
+      background-color: #fff;
+    }
+    .top-button2 {
+      padding: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1 solid black;
+      background-color: #090701;
+      color: #fff;
+    }
+    .toptext {
+      text-decoration: underline;
+      cursor: pointer;
+      margin: 0px 10px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .info {
+      flex: 3;
+    }
+
+    .summary {
+      flex: 1;
+    }
+  }
+}
+//Register and login
+
+.reg-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/background1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .register {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .title {
+    color: var(--smoke-white);
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 50px;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+    input {
+      flex: 1;
+      min-width: 40%;
+      margin: 20px 10px 0px 0px;
+      line-height: 25px;
+    }
+  }
+  button {
+    margin-top: 20px;
+    width: 40%;
+  }
+}
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/background3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  .register {
+    width: 40%;
+    padding: 20px;
+  }
+  .title {
+    color: var(--smoke-white);
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 50px;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+    input {
+      flex: 1;
+      min-width: 40%;
+      margin: 20px 10px 0px 0px;
+      line-height: 25px;
+    }
+  }
+  button {
+    margin-top: 20px;
+    width: 40%;
+  }
+}
