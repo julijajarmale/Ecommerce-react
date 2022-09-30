@@ -14,6 +14,7 @@ import Blog from './pages/Blog';
 import Sale from './pages/Sale';
 import Product from './pages/Product';
 import ProductList from './pages/ProductList';
+import Cart from './pages/Cart';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/men" element={<Men/>} /> 
         <Route path="/blog" element={<Blog/>} /> 
         <Route path="/sale" element={<Sale/>} /> 
+        <Route path="/cart" element={<Cart/>} /> 
     </Routes>
     </BrowserRouter>
 );
