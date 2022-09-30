@@ -12,6 +12,8 @@ import Women from './pages/Women';
 import Men from './pages/Men';
 import Blog from './pages/Blog';
 import Sale from './pages/Sale';
+import Product from './pages/Product';
+import ProductList from './pages/ProductList';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
     <BrowserRouter>
     <Routes> 
         <Route path="/" element={<Home/>} />
+        <Route path="/product" element={<Product/>} />
+        <Route path="/productlist" element={<ProductList/>} />
         <Route path="/women" element={<Women/>} /> 
         <Route path="/men" element={<Men/>} /> 
         <Route path="/blog" element={<Blog/>} /> 
