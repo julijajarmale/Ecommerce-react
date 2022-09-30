@@ -85,7 +85,9 @@ const Navbar = () => {
                 HOME
               </NavLink>
             </div>
-            <a href="http://localhost:3000/cart"><ShoppingCartIcon className="cart" /></a>
+            <NavLink to="/cart">
+              <ShoppingCartIcon className="cart" />
+            </NavLink>
           </nav>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Flag from "./flag";
 
 function Top() {
@@ -6,13 +7,13 @@ function Top() {
     <div className="top">
       <ul>
         <li>
-          <a href="http://localhost:3000/register">REGISTER</a>
+          <Link to="/register">REGISTER</Link>
         </li>
         <li>
-          <a href="http://localhost:3000/login">SIGN IN</a>
+        <Link to="/login">SIGN IN</Link>
         </li>
         <li>
-          <a href="http://localhost:3000/faq">HELP and FAQs</a>
+        <Link to="/faq">SIGN IN</Link>
         </li>
         <li>
           <button>
