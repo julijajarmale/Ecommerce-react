@@ -6,13 +6,6 @@ import { NavLink } from 'react-router-dom';
 
 function Product({item}) {
 
-  const expand = () => {
-    localStorage.setItem("id", item.id);
-    localStorage.setItem("title", item.title);
-
-    localStorage.setItem("img", JSON.stringify(item.img));
-   
-  };
 
   return (
     <div className='item-container'>
@@ -27,7 +20,7 @@ function Product({item}) {
     <div className="info-container">
         <div className='icon'><ShoppingCartOutlinedIcon/> </div>
         <NavLink to="/product">
-           <div className='icon'> <SearchIcon onClick={expand}/></div>
+           <div className='icon'> <SearchIcon/></div>
            </NavLink>
         
         <div className='icon'><FavoriteBorderIcon /></div>
