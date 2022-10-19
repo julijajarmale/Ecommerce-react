@@ -46,7 +46,7 @@ const Slider = () => {
             <div className="info-container">
               <h1>{item.title}</h1>
               <p>{item.desc}</p>
-              <Link to="productlist/">
+              <Link style={{textDecoration: 'none'}} to="productlist/">
               <button className="button-1">Shopit!</button>
               </Link>
             </div>
