@@ -7,18 +7,19 @@ import Women from "./pages/Women";
 import Men from "./pages/Men";
 import Blog from "./pages/Blog";
 import Sale from "./pages/Sale";
-import Product from "./pages/Product";
+import SingleProduct from "./pages/SingleProduct";
 import ProductList from "./pages/ProductList";
 import Cart from "./pages/Cart";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/productlist/product" element={<SingleProduct/>} />
         <Route path="/productlist" element={<ProductList />} />
         <Route path="/women" element={<Women />} />
         <Route path="/men" element={<Men />} />

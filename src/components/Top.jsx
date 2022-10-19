@@ -13,7 +13,7 @@ function Top() {
         <Link to="/login">SIGN IN</Link>
         </li>
         <li>
-        <Link to="/faq">SIGN IN</Link>
+        <Link to="/faq">FAQs</Link>
         </li>
         <li>
           <button>

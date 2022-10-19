@@ -6,6 +6,12 @@ import { NavLink } from 'react-router-dom';
 
 function Product({item}) {
 
+  const findMore = () => {
+    localStorage.setItem("id", item.id);
+    localStorage.setItem("img", JSON.stringify(item.img));
+   
+  };
+
 
   return (
     <div className='item-container'>
@@ -19,8 +25,8 @@ function Product({item}) {
     </div>
     <div className="info-container">
         <div className='icon'><ShoppingCartOutlinedIcon/> </div>
-        <NavLink to="/product">
-           <div className='icon'> <SearchIcon/></div>
+        <NavLink to="/productlist/product">
+           <div className='icon'> <SearchIcon onClick={findMore}/></div>
            </NavLink>
         
         <div className='icon'><FavoriteBorderIcon /></div>
