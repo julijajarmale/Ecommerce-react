@@ -482,7 +482,7 @@ body {
       margin: 20px 0px;
     }
     .price {
-      font-weight: 100;
+      font-weight: 500;
       font-size: 20px;
     }
     .filter {
@@ -757,8 +757,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  
   .register {
     width: 40%;
     padding: 20px;

@@ -4,6 +4,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useState } from "react";
 import { sliderItems } from "../data";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Wrapper = styled.div`
   height: 100%;
@@ -45,7 +46,9 @@ const Slider = () => {
             <div className="info-container">
               <h1>{item.title}</h1>
               <p>{item.desc}</p>
+              <Link to="productlist/">
               <button className="button-1">Shopit!</button>
+              </Link>
             </div>
           </div>
         ))}

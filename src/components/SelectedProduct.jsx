@@ -7,13 +7,13 @@ function SelectedProduct() {
         <img src={JSON.parse(localStorage.img)} alt="#" />
       </div>
       <div className="info-container">
-        <h1 className="title">hello</h1>
+        <h1 className="title">{localStorage.title}</h1>
         <p className="desc">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
           impedit ad sit natus! Possimus in molestiae rerum quis impedit fugiat
           sint aliquam et! Eligendi harum laborum aperiam explicabo aut quasi.
         </p>
-        <b className="price">499.99</b>
+        <b className="price">{localStorage.price}</b>
         <div className="filter">
           <p>Select color</p>
           <select>
